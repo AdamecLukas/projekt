@@ -1,0 +1,35 @@
+body{
+    text-align: center; 
+    background-color:#33cc33;
+    padding-top: 5%;
+
+}
+.container{
+    font-size: small;
+    margin: auto;
+    display: inline-block;
+    text-align: center;    
+    border: solid 5px;
+    background-color: rgb(144, 236, 126);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+
+}
+h1{
+    text-align: center;   
+}
+.idk{
+    text-align: center; 
+    
+
+
+}
+
+
+
+
+
+
+
+
