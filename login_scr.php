@@ -18,4 +18,13 @@
             echo "Nesprávne meno alebo heslo";
         }
 
+        if($result->num_rows==1){
+            session_start();
+            $_SESSION["username"] = $user;
+
+            header("Location: /index.php");
+        }
+        else{
+            header("Location: /Login.php?message=zadal si zle meno alebo heslo");
+        }
 ?>
